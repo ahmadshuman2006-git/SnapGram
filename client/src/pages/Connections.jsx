@@ -30,10 +30,20 @@ const Connections = () => {
     <div className="min-h-screen bg-slate-50">
       <div className="max-w-6xl mx-auto p-6">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-slate-900 mb-2">
+          <h1
+            className="text-3xl font-bold text-slate-900 mb-2 
+             hover:underline hover:decoration-2 hover:decoration-slate-400 
+             transition-all duration-300 
+             drop-shadow-[0_3px_5px_rgba(0,0,0,0.35)]"
+          >
             Connections
           </h1>
-          <p className="text-slate-600">
+          <p
+            className="text-slate-600 
+             hover:underline hover:decoration-2 hover:decoration-slate-400 
+             transition-all duration-300
+             drop-shadow-[0_2px_4px_rgba(100,116,139,0.25)]"
+          >
             Manage your network and discover connections
           </p>
         </div>

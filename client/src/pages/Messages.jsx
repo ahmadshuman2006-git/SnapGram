@@ -11,8 +11,23 @@ const Messages = () => {
     <div className="min-h-screen relative bg-slate-100">
       <div className="max-w-6xl mx-auto p-6">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-slate-900 mb-2">Messages</h1>
-          <p className="text-slate-600">Talk to Your Friends and Family</p>
+          <h1
+            className="text-3xl font-bold text-slate-900 mb-2 
+             hover:underline hover:decoration-2 hover:decoration-slate-400 
+             transition-all duration-300 
+             drop-shadow-[0_3px_5px_rgba(0,0,0,0.35)]"
+          >
+            Messages
+          </h1>
+
+          <p
+            className="text-slate-600 
+             hover:underline hover:decoration-2 hover:decoration-slate-400 
+             transition-all duration-300
+             drop-shadow-[0_2px_4px_rgba(100,116,139,0.25)]"
+          >
+            Talk to Your Friends and Family
+          </p>
         </div>
         <div className="flex flex-col gap-3">
           {dummyConnectionsData.map((user) => (

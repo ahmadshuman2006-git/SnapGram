@@ -25,11 +25,21 @@ const Discover = () => {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-6xl mx-auto p-6">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-slate-900 mb-2">
+          <h1
+            className="text-3xl font-bold text-slate-900 mb-2 
+             hover:underline hover:decoration-2 hover:decoration-slate-400 
+             transition-all duration-300 
+             drop-shadow-[0_3px_5px_rgba(0,0,0,0.35)]"
+          >
             Discover People
           </h1>
-          <p className="text-slate-600">
-            Connect With Amazing People and gow your network.
+          <p
+            className="text-slate-600
+             hover:underline hover:decoration-2 hover:decoration-slate-400
+             transition-all duration-300
+             drop-shadow-[0_2px_4px_rgba(100,116,139,0.25)]"
+          >
+            Connect With Amazing People and grow your network.
           </p>
         </div>
 

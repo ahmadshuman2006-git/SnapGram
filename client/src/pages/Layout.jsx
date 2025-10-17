@@ -44,14 +44,11 @@ import Loading from "../components/Loading";
 
 const Layout = () => {
   const user = dummyUserData;
-  const [sidebarOpen, setSideBarOpen] = useState(false); // <-- rename state
-
+  const [sidebarOpen, setSideBarOpen] = useState(false);
   return user ? (
     <div className="w-full flex h-screen">
-      {/* pass the exact prop names SideBar expects */}
       <SideBar sidebarOpen={sidebarOpen} setSideBarOpen={setSideBarOpen} />
 
-      {/* mobile overlay */}
       {sidebarOpen && (
         <div
           className="fixed inset-0 z-[15] bg-black/40 sm:hidden"
